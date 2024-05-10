@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=edge">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0  maximum-scale=1.0; user-scalable=no;">
+    <style>
+        html,
+        body,
+        div {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        }
+
+        .overallHeaderBorder {
+            display: flex;
+            border: 1px solid #b8bcc5;
+        }
+
+        .verticalLine {
+            border-right: 2px solid #b8bcc5;
+        }
+
+        .alignment {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .header-start {
+            padding: 25px;
+        }
+
+        .contentStyle {
+            text-align: center;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            font-size: 20px;
+        }
+
+        .subContentStyle {
+            text-align: center;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            padding: 10px;
+        }
+
+        .secondarySubContent {
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            padding: 20px;
+            font-size: 16px;
+        }
+
+        .secondaryAlignment {
+            text-align: center;
+        }
+
+        .tertiaryAlignment {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .secondAlign {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 25px;
+        }
+
+        .panStyle {
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            margin-left: 10px;
+        }
+
+        .contents {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .contentAlign {
+            display: flex;
+            border: 1px solid #b8bcc5;
+            justify-content: space-around;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .fabricContent {
+            padding-left: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .ApprovedContent {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .bodyContent {
+            display: flex;
+            padding: 20px;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        }
+
+        .billBody {
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        }
+
+        .toContent {
+            font-size: 14px;
+        }
+
+        .senderContent {
+            font-size: 14px;
+        }
+
+        .approvedPart {
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .valueContent {
+            font-size: 14px;
+        }
+
+        .tableTertiary {
+            padding: 20px;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        }
+
+        .SubjectContent {
+            border: 1px solid #b8bcc5;
+            padding: 20px;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        }
+
+        .sirContent {
+            font-size: 16px;
+            font-size: 16px;
+        }
+
+        .sirSubContent {
+            font-size: 16px;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 5px;
+            background-color: #fff; 
+            border-top: 1px solid #b8bcc5; 
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            font-size: medium;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="overallHeaderBorder" style="width:100%;justify-content: center;">
+        <tr>
+            <td class="alignment" style="padding: 43px;">
+                <div class="header-start">
+                    <img src="https://software.milgroup.in/favicon.png" alt="logo" />
+                    <div class="contentStyle">meenakshi</div>
+                    <div class="subContentStyle">(india) limited</div>
+                </div>
+            </td>
+            <td class="verticalLine"></td>
+            <td class="secondaryAlignment">
+               
+                <div class="contentStyle">Meenakshi India Limited</div>
+                <div class="secondarySubContent">
+                  16, Whites Road, Royapettah, Chennai, Tamil Nadu 600014
+                </div>
+                        <table>
+                            <tr>
+                                <th style="text-align: center; vertical-align: top; width: 150px;">
+                                    <h5>Email : </h5>
+                                </th>
+                                <hr>
+                                <td style="text-align: center; vertical-align: top; width: 150px;">
+                                    <h5>Contact@milgroup.in</h5>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            <td class="verticalLine"></td>
+            <td class="tertiaryAlignment" style="padding: 43px;white-space: nowrap;">
+                <div class="panStyle">PAN NO : AAACM5386Q</div>
+                <div class="panStyle">GSTIN NO : 33AAACM5386Q2ZW</div>
+                <div class="panStyle">State Code/Name : 33 - Tamil Nadu</div>
+            </td>
+        </tr>
+    </table>
+    <table style="width:100%; border: 1px solid #b8bcc5;">
+        <tr style="height: 40px;">
+            <th style="
+            padding-left: 44px;
+        ">Trim Purchase Order</th>
+            <th>Approved</th>
+        </tr>
+    </table>
+    <table class="overallHeaderBorder" style="width: 100%;justify-content: center;">
+        <tr>
+            <td class="alignment" style="padding: 40px;">
+                <div class="toContent">To:</div>
+                <div class="senderContent">
+                    FINELINE INDIA SOLUTIONS PVT LTD
+                    <div>PLOT NO : 300</div>
+                    <div>UDYOG VIHAR-PHASE II</div>
+                    <div>GURUGRAM , GURGAON,HARYANA </div>
+                    <div>GSTIN No: 06AACCD7187N1Z4</div>
+                    <div>PAN NO: AACCD7187N1Z4</div>
+                    <div style="margin-top: 10px;">
+                        State Code/ Name : 06 - Haryana
+                    </div>
+                </div>
+            </td>
+            <td class="verticalLine"></td>
+            <td class="secondaryAlignment" style="padding: 40px;">
+                <div class="toContent">Bill From:</div>
+                <div class="senderContent">
+                    FINELINE INDIA SOLUTIONS PVT LTD
+                    <div>PLOT NO : 300</div>
+                    <div>UDYOG VIHAR-PHASE II</div>
+                    <div>GURUGRAM , GURGAON,HARYANA </div>
+                    <div>GSTIN No: 06AACCD7187N1Z4</div>
+                </div>
+            </td>
+            <td class="verticalLine"></td>
+            <td class="tertiaryAlignment" style="padding: 40px;">
+                <div class="tableTertiary" >
+                    <div class="valueContent">Trims PO No: {{PONumber}}</div>
+                    <div class="valueContent">Dated: {{updatedAt}}</div>
+                    <div class="valueContent">Delivery Date: {{deliveryDate}}</div>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <div class="SubjectContent">
+        <div>
+            <div style="margin-top:6px">Order Ref No : {{orderRef}}</div>
+            <div style="margin-top:10px">Style No : {{styleNo}}</div>
+            <div style="margin-top:6px">Season : {{season}}</div>
+        </div>
+        <div class="sirContent" style="margin-top: 10px;">Dear Sir/Madam</div>
+        <div class="sirSubContent">
+            We are pleased to place the following order with you as per Terms and
+            Conditions mentioned below
+        </div>
+        <div style="display: flex; margin-top: 10px;">
+            <div>Proforma Number : {{PONumber}}</div>
+            <div style="margin-left: 8px;">Proforma Date : {{updatedAt}}</div>
+        </div>
+    </div>
+    <div>
+        <table style="border: 1px solid #b8bcc5; border-collapse: collapse; width: 100%;">
+            <thead>
+                <tr>
+                    <th
+                        style="border: 1px solid #b8bcc5; padding: 8px; font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        S No</th>
+                    <th
+                        style="border: 1px solid #b8bcc5; padding: 8px; font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        Description</th>
+                    <th
+                        style="border: 1px solid #b8bcc5; padding: 8px; font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        Quantity</th>
+                    <th
+                        style="border: 1px solid #b8bcc5; padding: 8px; font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        Price ({{currency}})</th>
+                    <th
+                        style="border: 1px solid #b8bcc5; padding: 8px;font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        Amount ({{currency}})</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each data.trimPurchase}}
+                <tr>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        {{sNo}}</td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px;text-align: center;font-size: 16px;font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        <div>
+                        {{trimName}}
+                        </div>
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5;text-align: center; padding: 8px;font-size: 16px; font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        {{trimQuantity}} Mts </td>
+                    <td
+                        style="border: 1px solid #b8bcc5;text-align: center; padding: 8px;font-size: 16px; font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        {{trimAmount}} </td>
+                    <td
+                        style="border: 1px solid #b8bcc5;text-align: center; padding: 8px;font-size: 16px; font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        {{trimTotal}}</td>
+                </tr>
+                {{/each}}
+                <tr>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: end;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        <!-- {{totalQuantity}} Mts <br />{{totalQuantiyInYards}} Yards -->
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                </tr>
+                <tr>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: end;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        Total</td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        {{subtotal}}</td>
+                </tr>
+
+                <!-- MOQ Charges -->
+                <tr>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        MOQ Charges
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        {{moqCharges}}
+                    </td>
+                </tr>
+
+                <!-- Freight Charges -->
+                <tr>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        FREIGHT CHARGES
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        {{freightCharges}}
+                    </td>
+                </tr>
+
+                <!-- IGST Charges -->
+                <tr>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        IGST {{igstPercent}} %
+                    </td>
+                    <td
+                        style="border: 1px solid #b8bcc5; padding: 8px; text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        {{igstAmount}}
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td
+                        style="border-bottom: 1px solid #b8bcc5;text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border-bottom: 1px solid #b8bcc5;text-align: end;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border-bottom: 1px solid #b8bcc5;text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                        Total Quantity {{totalQuantity}} Nos</td>
+                    <td
+                        style="border-bottom: 1px solid #b8bcc5;text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                    <td
+                        style="border-bottom: 1px solid #b8bcc5;text-align: center;font-size: 16px;   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <table style="width: 100%; margin-left: 10px">
+        <tr>
+            <td>
+                <h5>Amount in Words:  {{totalAmountInWords}}</h5>
+            </td>
+            <td>
+                <h5>Grand Total({{currency}}): {{price}}</h5>
+            </td>
+        </tr>
+    </table>
+    <!-- <div style="display: flex; justify-content: space-between; padding: 10px; margin-top: auto; margin-bottom: auto;">
+        <div style="display: flex;">
+            <div style="font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif; margin-right: 10px;">
+                Amount in Words:
+            </div>
+            <div style="font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+                {{totalAmountInWords}}
+            </div>
+        </div>
+        <div style="display: flex; font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;">
+            <div>
+                Grand Total(INR) :
+            </div>
+            <div>{{totalAmount}}</div>
+        </div>
+    </div> -->
+    <div style="padding: 10px; margin-top: auto; margin-bottom: auto;">
+        <div style="margin-right: 10px;font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif; font-size: 13px;">
+          Enclosures/Remarks:
+        </div>
+        <div style="font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif; font-size: 14px;">
+          {{remarksData}}
+        </div>
+      </div>
+    <div style="padding: 10px; margin-top: auto; margin-bottom: auto;">
+        <div
+            style="margin-right: 10px;font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif; font-size: 13px;">
+            Payment Type : Credit Payment
+        </div>
+
+    </div>
+    <table style="width: 100%; margin-left: 10px">
+        <tr>
+            <td>
+                <h5>Ship to :<br />
+                    MEENAKSHI -UNIT-3,<br />
+                    No.4/23, ALANGKATTUPUDUR,<br />
+                    THENGALPALAYAM, ATHANUR P O,<br />
+                    RASIPURAM T.K - 636301</h5>
+            </td>
+            <td>
+                <h5>Bill To:<br />
+                  Meenakshi India Limied,<br/>
+                  16, Whites Road, Royapettah, <br/>
+                  Chennai,Tamil Nadu 600014,</h5>
+              </td>
+            <!-- <th style="text-align: right; vertical-align: top;">
+            <h5>Ship to Warehouse:</h5>
+          </th>
+          <td style="text-align: left; vertical-align: top;">
+            <h5>MEENAKSHI -UNIT-3,<br/>
+              No.4/23, ALANGKATTUPUDUR,<br/>
+              THENGALPALAYAM, ATHANUR P O,<br/>
+              RASIPURAM T.K - 636301</h5>
+          </td>
+          <th style="text-align: right; vertical-align: top;">
+            <h5>Bill To:</h5>
+          </th>
+          <td style="text-align: left; vertical-align: top;">
+            <h5> Meenakshi India Limied,<br/>
+              16, 3rd Floor, Whites Road, Royapettah, <br/>
+              Chennai,Tamil Nadu 600014,<br/></h5>
+          </td> -->
+        </tr>
+    </table>
+
+
+
+
+    <div
+        style="margin-top: auto; margin-bottom: auto; text-align: end; padding: 30px;font-family:Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;font-size: medium;">
+        <div></div>
+        <div>
+            For Meenakshi India Limited
+        </div>
+    </div>
+    <div class="footer">
+    <div style="margin-top: 30px;"></div>
+    <table style="width: 100%;">
+        <tr>
+            <th>
+                {{createdByUser}} <br />
+                Prepared By
+            </th>
+            <th>
+                <br />
+                Checked By
+            </th>
+            <th>
+                {{updatedByUser}} <br />
+                Approved By
+            </th>
+            <th>
+                <br />
+                Authorised Signatory
+            </th>
+        </tr>
+    </table>
+</div>
+    </div>
+</body>
+
+</html>
